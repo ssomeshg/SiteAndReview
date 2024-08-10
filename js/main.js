@@ -37,11 +37,10 @@
         dots: true,
         loop: true,
         nav : true, 
-        
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ],
+        // navText : [
+        //     '<i class="bi bi-arrow-left"></i>',
+        //     '<i class="bi bi-arrow-right"></i>'
+        // ],
     });
 
 
@@ -51,14 +50,11 @@
         autoplay: true,
         smartSpeed: 1500,
         center: false,
-        dots: false,
+        dots: true,
         loop: true,
         margin: 25,
         nav : true,
-        navText : [
-            '<i class="fa fa-arrow-right"></i>',
-            '<i class="fa fa-arrow-left"></i>'
-        ],
+       
         responsiveClass: true,
         responsive: {
             0:{

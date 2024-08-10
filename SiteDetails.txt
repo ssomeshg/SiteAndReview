@@ -1,0 +1,21 @@
+//Used Colours
+    1. Background - #fff 
+    2.  --bs-primary: #241614;
+    3.  --bs-secondary: #fff2004a;
+
+//Used Fonts
+    1. "DM Sans", sans-serif 
+        ---- Headings and SubHeadings
+    2.  poppins", sans-serif
+        ---- body, paragraphs, Navigations
+
+//Buttons Colours
+     --bs-primary: #241614;
+
+//Font Sizes 
+    Banner Heading - 5rem
+    Banner SubHeading - 1.5rem
+
+    -body FontSize - 1.5rem
+    -Section Heading - 3.5rem
+    -Section SubHeading - 1.5 rem
