@@ -130,6 +130,8 @@
 .nav-bar {
     background: var(--bs-white);
     transition: 1s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+            0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .navbar-light .navbar-brand img {
@@ -230,7 +232,6 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        background: var(--bs-light);
         border-radius: 10px;
     }
 
@@ -399,11 +400,11 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
+    background: linear-gradient( rgba(255, 255, 255, 0.2),#fff2004a);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0 60px 0;
+    padding: 10px 0 10px 0;
     transition: 0.5s;
 }
 
@@ -412,7 +413,7 @@
 }
 
 .bg-breadcrumb .breadcrumb .breadcrumb-item a {
-    color: var(--bs-white);
+    color: var(--bs-primary);
 }
 
 /*** Single Page Hero Header End ***/
